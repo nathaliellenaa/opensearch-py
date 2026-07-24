@@ -5,6 +5,7 @@ Inspired from [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Added
 - Add gRPC translation layer with `BulkRequestProtoBuilder` and `ResponseConverter` for bulk operations ([#1058](https://github.com/opensearch-project/opensearch-py/pull/1058))
 - Add gRPC transport for bulk operations with `OpenSearchGrpc` client and `GrpcTransport` ([#1078](https://github.com/opensearch-project/opensearch-py/pull/1078))
+- Add gRPC ML streaming translation layer for ML Commons `PredictModelStream` / `ExecuteAgentStream` APIs ([#1096](https://github.com/opensearch-project/opensearch-py/pull/1096))
 ### Updated APIs
 ### Changed
 ### Deprecated
